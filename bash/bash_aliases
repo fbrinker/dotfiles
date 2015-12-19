@@ -1,0 +1,53 @@
+# general
+	alias c="clear"
+	alias df='df -H'
+	alias du='du -ch'
+
+# file / dir listings
+	alias ll="ls -al --color=auto"
+
+# navigation
+	alias cd..='cd ..'
+	alias ..='cd ..'
+	alias ...='cd ../../../'
+	alias ....='cd ../../../../'
+	alias .....='cd ../../../../'
+	alias .4='cd ../../../../'
+	alias .5='cd ../../../../..'
+
+# grep with colors
+	alias grep='grep --color=auto'
+	alias egrep='egrep --color=auto'
+	alias fgrep='fgrep --color=auto'
+
+# mkdir (recursive)
+	alias mkdir='mkdir -pv'
+
+# vim as default editor
+	alias vi=vim
+	alias svi='sudo vi'
+	alias vis='vim "+set si"'
+	alias edit='vim'
+
+# ping commands
+	alias ping='ping -c 5'
+	alias fastping='ping -c 100 -s.2'
+
+# parenting 
+	# changing perms on /
+	alias chown='chown --preserve-root'
+	alias chmod='chmod --preserve-root'
+	alias chgrp='chgrp --preserve-root'
+
+# apt-get shorts
+	alias apt-get="sudo apt-get"
+	alias updatey="sudo apt-get --yes"
+	alias update='sudo apt-get update && sudo apt-get upgrade'
+
+# sudo shortcut
+	alias root='sudo -i'
+	alias su='sudo -i'
+
+# wget
+	# continue downloads, don't start at the beginning everytime
+	alias wget='wget -c'
