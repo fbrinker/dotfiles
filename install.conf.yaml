@@ -2,12 +2,12 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.bash_aliases: bash/bash_aliases
-    ~/.bash_config: bash/bash_config
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore_global: git/gitignore_global
+    ~/.bash_aliases: bash/aliases
+    ~/.bash_config: bash/config
+    ~/.gitconfig: git/config
+    ~/.gitignore_global: git/ignoreGlobal
     ~/.vim: vim/vim/
-    ~/.vimrc: vim/vimrc
+    ~/.vimrc: vim/rc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

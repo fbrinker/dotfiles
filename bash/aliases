@@ -3,6 +3,9 @@
 	alias df='df -H'
 	alias du='du -ch'
 
+# update dotfiles
+    alias dotupdate='cd ~/.dotfiles && git pull'
+
 # file / dir listings
     alias ll="ls -al --color=auto"
 
