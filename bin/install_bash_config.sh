@@ -10,7 +10,7 @@ echo "Installing $FILE_CONFIG_STR..."
 # does the profile file exist?
 if [ ! -f $FILE_PROFILE ]; then
     echo "Creating $FILE_PROFILE."
-    touch $FILE_PROFILE
+    echo "# BASH PROFILE" > $FILE_PROFILE
 fi
 
 # add the config file to the profile
@@ -22,4 +22,4 @@ else
 fi
 
 # include the aliases right now
-. $FILE_CONFIG
+source $FILE_CONFIG

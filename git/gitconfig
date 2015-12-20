@@ -8,7 +8,7 @@
     ui = auto
 
 [push]
-    default = simple
+    default = matching
 
 [core]
     excludesfile = ~/.gitignore_global
