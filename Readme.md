@@ -5,7 +5,7 @@ Welcome to my dotfiles reporsitory - feel free to adapt it. **Every terminal her
 #### Clone the repository
 ```
 cd ~
-git clone git@github.com:fbrinker/dotfiles.git
+git clone https://github.com/fbrinker/dotfiles.git
 ```
 
 #### Install the dotfiles
