@@ -6,6 +6,8 @@ Welcome to my dotfiles repository.
 #### Why?
 https://dotfiles.github.io/
 
+![vim preview](https://i.imgur.com/PiSwC5Sl.png)
+
 ## Setup
 #### Clone the repository
 ```
