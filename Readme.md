@@ -3,6 +3,9 @@ Welcome to my dotfiles repository.
 
 **Every terminal hero should have one.** Feel free to adapt it.
 
+#### Why?
+https://dotfiles.github.io/
+
 ## Setup
 #### Clone the repository
 ```
