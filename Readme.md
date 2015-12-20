@@ -1,5 +1,7 @@
 # Dotfiles
-Welcome to my dotfiles reporsitory - feel free to adapt it. **Every terminal hero should have one.**
+Welcome to my dotfiles repository. 
+
+**Every terminal hero should have one.** Feel free to adapt it.
 
 ## Setup
 #### Clone the repository
