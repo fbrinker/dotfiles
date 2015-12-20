@@ -7,12 +7,6 @@ FILE_ALIASES_STR="~/.bash_aliases"
 
 echo "Installing $FILE_ALIASES_STR..."
 
-# does the profile file exist?
-if [ ! -f $FILE_PROFILE ]; then
-    echo "Creating $FILE_PROFILE."
-    echo "# BASH PROFILE" > $FILE_PROFILE
-fi
-
 # add the aliase file to the profile
 if ! grep --quiet $FILE_ALIASES_STR $FILE_PROFILE; then
     sed -i "1i# Bash Aliases\n. $FILE_ALIASES_STR\n" $FILE_PROFILE

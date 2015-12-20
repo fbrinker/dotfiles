@@ -7,12 +7,6 @@ FILE_CONFIG_STR="~/.bash_config"
 
 echo "Installing $FILE_CONFIG_STR..."
 
-# does the profile file exist?
-if [ ! -f $FILE_PROFILE ]; then
-    echo "Creating $FILE_PROFILE."
-    echo "# BASH PROFILE" > $FILE_PROFILE
-fi
-
 # add the config file to the profile
 if ! grep --quiet $FILE_CONFIG_STR $FILE_PROFILE; then
     sed -i "1i# Bash Config\n. $FILE_CONFIG_STR\n" $FILE_PROFILE

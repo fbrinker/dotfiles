@@ -11,5 +11,6 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [~/.dotfiles/bin/install_bash_profile.sh]
   - [~/.dotfiles/bin/install_bash_aliases.sh]
   - [~/.dotfiles/bin/install_bash_config.sh]
