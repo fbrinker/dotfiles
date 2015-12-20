@@ -1,0 +1,25 @@
+#---------------------------------
+#   History
+#---------------------------------
+
+# append bash history
+shopt -s histappend
+
+# enlarge history size
+HISTFILESIZE=10000
+HISTSIZE=10000
+
+# ignore commands with beginning spaces and duplicates
+HISTCONTROL=ignoreboth
+
+# don't log the following commands
+HISTIGNORE='ls:ll:bg:fg:history'
+
+# record timestamps
+HISTTIMEFORMAT='%F %T '
+
+# one command per line
+shopt -s cmdhist
+
+# store immediately
+PROMPT_COMMAND='history -a'
