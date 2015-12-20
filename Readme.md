@@ -1,6 +1,12 @@
-# Dotfiles Repository
+# Dotfiles
+Welcome to my dotfile reporsitory - feel free to adapt it. Every terminal hero should have one.
 
-### Installation
-Run ./install.sh
+## Install
+Just execute the following command in the repository's root directory:
+```
+./install
+```
 
-# Test
+## Links
+[Dotbot](https://git.io/dotbot)
+[VimAwesome](http://vimawesome.com/)

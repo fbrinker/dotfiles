@@ -1,6 +1,14 @@
 [user]
     email = git@coded-with-heart.com
     name = Florian Brinker
-    
+
+[color]
+    diff = auto
+    status = auto
+    ui = auto
+
 [push]
     default = simple
+
+[core]
+    excludesfile = ~/.gitignore_global

@@ -2,6 +2,10 @@
 "  General settings
 " -------------------------------------
 
+" use vim settings, rather than vi settings
+" must be first, because it changes other options as a side effect
+set nocompatible
+
 " Plugin manager
 execute pathogen#infect()
 
@@ -15,11 +19,15 @@ set autoread
 " Always show current position
 set ruler
 
+" Paste without auto indentation
+set paste
+
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
 " When searching try to be smart about cases
+set ignorecase
 set smartcase
 
 " Highlight search results
@@ -60,6 +68,16 @@ let g:molokai_original = 1
 colorscheme molokai
 
 let g:airline_theme = 'molokai'
+
+" stop unnecessary rendering
+set lazyredraw
+
+" show line numbers
+set number
+
+" Highlight column & line
+set cursorcolumn
+set cursorline
 
 " -------------------------------------
 "  Text settings
