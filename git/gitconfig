@@ -1,3 +1,6 @@
 [user]
     email = git@coded-with-heart.com
     name = Florian Brinker
+    
+[push]
+    default = simple
