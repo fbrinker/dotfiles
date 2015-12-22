@@ -11,5 +11,5 @@
     default = matching
 
 [core]
-    editor "vim"
+    editor = vim
     excludesfile = ~/.gitignore_global
