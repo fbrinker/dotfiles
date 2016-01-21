@@ -1,3 +1,6 @@
+# use vim as editor
+    export EDITOR=vim
+
 # general
 	alias c="clear"
 	alias df='df -H'
