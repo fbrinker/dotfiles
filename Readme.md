@@ -3,19 +3,19 @@ Welcome to my dotfiles repository.
 
 **Every terminal hero should have one.** Feel free to adapt it.
 
-#### Why?
+## Why?
 https://dotfiles.github.io/
 
 ![vim preview](https://i.imgur.com/PiSwC5Sl.png)
 
 ## Setup
-#### Clone the repository
+### Clone the repository
 ```
 cd ~
 git clone https://github.com/fbrinker/dotfiles.git
 ```
 
-#### Install the dotfiles
+### Install the dotfiles
 Now, the only thing you need to do, is to execute the `~/dotfiles/install` command.
 
 ## Interesting stuff / find additional plugins
