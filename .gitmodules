@@ -10,3 +10,6 @@
 [submodule "vim/vim/bundle/nerdtreee"]
 	path = vim/vim/bundle/nerdtreee
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bash/plugins/bash-git-prompt"]
+	path = bash/plugins/bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git
