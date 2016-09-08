@@ -13,3 +13,6 @@
 [submodule "bash/plugins/bash-git-prompt"]
 	path = bash/plugins/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "vim/vim/bundle/nerdtree-git"]
+	path = vim/vim/bundle/nerdtree-git
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
