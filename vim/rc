@@ -80,6 +80,16 @@ set cursorcolumn
 set cursorline
 
 " -------------------------------------
+"  NerdTree FileBrowser
+" -------------------------------------
+
+" Enable by default
+"autocmd VimEnter * NERDTree
+
+" If there is a file opened, focus the file, not the tree
+autocmd VimEnter * if argc() | wincmd p | endif
+
+" -------------------------------------
 "  Text settings
 " -------------------------------------
 
