@@ -7,12 +7,12 @@
 [submodule "vim/vim/bundle/vim-airline"]
 	path = vim/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "vim/vim/bundle/nerdtreee"]
-	path = vim/vim/bundle/nerdtreee
-	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bash/plugins/bash-git-prompt"]
 	path = bash/plugins/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
 [submodule "vim/vim/bundle/nerdtree-git"]
 	path = vim/vim/bundle/nerdtree-git
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "vim/vim/bundle/nerdtree"]
+	path = vim/vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
